@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: General Sans;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.6s;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    z-index: 9999;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+.bounding .boundingelem {
+    transform: translateY(100%);
+}
+
+#main {
+    width: 100%;
+    background-color: black;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+
+#heading {
+    margin-top: 55px;
+}
+
+#heading h1 {
+    margin-left: 50px;
+    opacity: 0.6;
+    line-height: 1;
+
+    font-size: 11vw;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+#heading #secondh1 {
+    margin-left: 210px;
+}
+
+.blocktext {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+
+}
+
+.blocktext h6 {
+    text-align: right;
+}
+
+#smallHeadings {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    font-size: 1.4vw;
+    padding-right: 30px;
+}
+
+#smallHeadings h6 {
+    margin-top: 0.5vw;
+    text-align: right;
+}
+
+#herofooter a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+
+}
+
+#herofooter {
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #585858;
+}
+
+#second {
+    color: white;
+    padding-right: 13vw;
+    padding-top: 160px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    width: 100%;
+    padding: 2vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+
+}
+
+.elem h1 {
+    font-size: 5.6vw;
+    opacity: 0.7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+
+}
+
+.elem h5 {
+    opacity: 0.75;
+    font-size: 14px;
+
+}
+
+.elem img {
+    opacity: 0;
+    height: 120%;
+    z-index: 999;
+    position: absolute;
+}
+
+#about {
+    color: white;
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+    padding: 8vw 10vw;
+    padding-left: 30vw;
+    padding-right: 15vw;
+    width: 100%;
+    background-color: black;
+}
+
+#textabout {
+    width: 25rem;
+    /* background-color: red; */
+}
+
+#textabout h5 {
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    opacity: 0.6;
+}
+
+#textabout p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+#textabout a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    border-radius: 100px;
+}
+
+#about img {
+    width: 220px;
+}
+
+#subscribe {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    padding-bottom: 8vw;
+}
+
+#subscribe h5 {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+#subscribe h3 {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+    color: white;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+
+#footer a {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+
+}
+
+#footerright {
+
+    display: flex;
+    gap: 60px;
+}
